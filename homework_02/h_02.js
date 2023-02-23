@@ -1,5 +1,6 @@
 var musicBandName = "Blue October";
 var musicBandSong = "Say It";
+var concatenatedName;
 
 function concatenateTwoWords(bandName, bandSong) {
     concatenatedName = bandName + bandSong
@@ -13,7 +14,7 @@ function logWordLettersInLine() {
     }
 }
 
-function logTheFullbandName(musicBandName) {
+function logTheFullBandName(musicBandName) {
     let fullMusicBandName = "";
     for (let n = 0; n <= concatenatedName.length; n++) {
         if (musicBandName.length === n) {
@@ -56,7 +57,7 @@ concatenateTwoWords(musicBandName, musicBandSong);
 console.log("2. Words in new line");
 logWordLettersInLine();
 console.log("3. Print Full music band Name");
-logTheFullbandName(musicBandName);
+logTheFullBandName(musicBandName);
 console.log("4. Factorial :", calculateFactorial(10));
 console.log("5. Swith statment task")
 swithStatementResult();
