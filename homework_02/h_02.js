@@ -52,12 +52,15 @@ function swithStatementResult() {
     }
 }
 
-console.log("1. Concatenate two words:");
-concatenateTwoWords(musicBandName, musicBandSong);
-console.log("2. Words in new line");
-logWordLettersInLine();
-console.log("3. Print Full music band Name");
-logTheFullBandName(musicBandName);
-console.log("4. Factorial :", calculateFactorial(10));
-console.log("5. Swith statment task")
-swithStatementResult();
+export function runHomework_2() {
+    console.log("\n====================|Homework - 2|====================\n");
+    console.log("1. Concatenate two words:");
+    concatenateTwoWords(musicBandName, musicBandSong);
+    console.log("2. Words in new line");
+    logWordLettersInLine();
+    console.log("3. Print Full music band Name");
+    logTheFullBandName(musicBandName);
+    console.log("4. Factorial :", calculateFactorial(10));
+    console.log("5. Swith statment task")
+    swithStatementResult();
+}

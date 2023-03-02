@@ -8,6 +8,7 @@ import { countRepetitions } from "./tasks/task_03_7.js";
 import { calculateNumber } from "./tasks/task_03_8.js";
 
 export function runHomework_3() {
+    console.log("\n====================|Homework - 3|====================\n");
     console.log("--------------------|Task - 1|--------------------");
     console.log("Calculated sum: ", calculateSum([1, 5, 6, 8, 9, 1, 2]));
 
