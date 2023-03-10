@@ -13,7 +13,7 @@ const obj: Human[] = [
     }
 ];
 
-function getArray<T extends Human>(arrObj: T[]): any[] {
+function getArray<T extends Human>(arrObj: T[]): string[] {
     return arrObj.map((element) => element.name);
 }
 
